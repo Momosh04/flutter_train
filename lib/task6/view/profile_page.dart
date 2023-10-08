@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 
-// TODO : 
+// TODO : create pofile page from getIt storage
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
