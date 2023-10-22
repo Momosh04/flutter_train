@@ -7,9 +7,8 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 
-// TODO : In this Task Create Bottom Navigation Bar has 4 pages  
-
-// ? list of pages [guide,search,history,profile]
+// TODO : create 'from' and 'to' text field with getlocater and send it to backend
+// TODO : then save the response in get_it
 
 class _HomePageState extends State<HomePage> {
   @override

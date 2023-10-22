@@ -7,11 +7,7 @@ class SignUpPage extends StatefulWidget {
   State<SignUpPage> createState() => _SignUpPageState();
 }
 
-// TODO : Build SignUP Page and Send your Data to Function Called AuthServiceMock().SignUp()
-
-// ? SignUP method has name , phone , password , gender and BirthDate 
-
-// ?  also the navigate will be to Home Page if the method return true 
+// TODO : create service function and send the user model to back end
 
 class _SignUpPageState extends State<SignUpPage> {
   @override
