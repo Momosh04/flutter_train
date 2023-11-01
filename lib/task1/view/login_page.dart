@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:herry_up/core/data/model/login_model.dart';
-import 'package:herry_up/core/data/service/login_service.dart';
+import 'package:herry_up/core/data/service/auth_service.dart';
 import 'package:herry_up/task2/view/homepage.dart';
 
 // ignore: must_be_immutable
@@ -39,7 +39,7 @@ class LoginPage extends StatelessWidget {
               padding: const EdgeInsets.only(top: 30),
               child: Center(
                   child: SizedBox(
-                      width: 450,
+                      width: 400,
                       child: Column(
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
@@ -71,7 +71,7 @@ class LoginPage extends StatelessWidget {
                               child: TextButton(
                                   onPressed: () async {
                                     bool status =
-                                        await LoginServiceImp().logIn(Mod_login(
+                                        await AuthServiceImp().logIn(Mod_login(
                                       email: email.toString(),
                                       password: password.toString(),
                                     ));
